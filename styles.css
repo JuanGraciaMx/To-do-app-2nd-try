@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+.first-section {
+  display: grid;
+  justify-content: center;
+  margin: 50px;
+}
+
+.second-section{
+  display: grid;
+  justify-content: center;
+  margin: 20px;
+}
+
+#form-input, #main-button {
+  margin: 20px;
+}
+
+#form-input {
+  min-height: 30px;
+  min-width: 100px;
+}
+
+#form-button {
+  border-radius: 10%;
+  min-width: 80px;
+  min-height: 30px;
+  background-color: royalblue;
+  border: none;
+}
+
+#form-button:hover {
+  background-color: cornflowerblue;
+  color: black;
+  transition: 0.5s;
+}
+
+li {
+  margin-top: 20px;
+  padding: 1rem;
+	border-radius: 1rem;
+	margin-right: 1rem;
+  display: inline-block;
+}
+
+.delete-button {
+  border-radius: 10%;
+  min-width: 80px;
+  min-height: 30px;
+  background-color: darkred;
+  border: none;
+}
+
+.delete-button:hover {
+  background-color: rgb(245, 72, 72);
+}
