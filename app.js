@@ -35,4 +35,11 @@ function newErrand(e) {
     deleteBtn.classList.add('delete-button');
     deleteBtn.innerText = 'Delete';
     div.appendChild(deleteBtn);
+    //Delete task
+    deleteBtn.addEventListener('click', deleteTodo);
+
+    function deleteTodo(e) {
+    const deleteNode = e.target.parentElement;
+    deleteNode.remove();
+}
 }
